@@ -1,0 +1,232 @@
+Name:    Brittany Dunn
+For: Project Step 5 Group Review
+Version: Draft
+
+========
+Reviews for Project Step 5 Draft by Russell Moon
+========
+
+URL of the discussion post where you submitted the review 
+----------------------------------------------------------
+https://oregonstate.instructure.com/groups/316002/discussion_topics/8372911
+
+Review Text:
+------------
+READ functionalities
+
+Are rows being listed for all entities?
+Yes
+
+Are rows being listed for all relationships, as described in the Specs?
+Yes
+
+Is the Search OR filter functionality present and working?
+Yes
+
+Is there a better way that data could be displayed on these pages? OR Could the style of the webpage be improved?
+I agree with Andrew about expanding some of the columns that have a lot of text and Hilary about the margin on the bottom. The pictures on the home page are a little oddly placed since they are centered and everything else is to the left.
+
+Anything else that you think is important for READ functionalities?
+No
+
+DELETE functionalities
+
+All appear to be working correctly.
+
+
+=======
+Reviews for Project Step 5 Draft by Christopher Brown
+=======
+
+URL of the discussion post where you submitted the review 
+----------------------------------------------------------
+https://oregonstate.instructure.com/groups/316002/discussion_topics/8372911
+
+Review Text:
+------------
+READ functionalities
+
+Are rows being listed for all entities?
+For the Inkling inventory, either the buying of gear and weapons is not working or the display is not working. I think what is happening though is anything bought is being added to 1:Splat Tim and not the selected Inkling.
+
+Are rows being listed for all relationships, as described in the Specs?
+Yes
+
+Is the Search OR filter functionality present and working?
+Yes
+
+Is there a better way that data could be displayed on these pages? OR Could the style of the webpage be improved?
+When shopping for gear and weapons, it would be helpful to list what gear they already have. Also the pages could be styled, but you may just be waiting till the last step to do this like I am.
+
+Anything else that you think is important for READ functionalities?
+            Nothing additional than previous comments.
+
+DELETE functionalities
+
+Delete does not work for gear or inkling.
+
+
+========
+Reviews for Project Step 5 Draft by Andrew Huson
+========
+
+URL of the discussion post where you submitted the review 
+----------------------------------------------------------
+https://oregonstate.instructure.com/groups/316002/discussion_topics/8372911
+
+Review Text:
+------------
+READ functionalities
+
+Are rows being listed for all entities?
+Yes
+
+Are rows being listed for all relationships, as described in the Specs?
+Yes
+
+Is the Search OR filter functionality present and working?
+Yes
+
+Is there a better way that data could be displayed on these pages? OR Could the style of the webpage be improved?
+No, it is well done
+
+Anything else that you think is important for READ functionalities?
+No
+
+DELETE functionalities
+
+Delete works correctly for states and applications.
+
+
+
+========
+Reviews for Project Step 5 Draft by Eddie Kovsky
+========
+
+URL of the discussion post where you submitted the review 
+----------------------------------------------------------
+https://oregonstate.instructure.com/groups/316002/discussion_topics/8372911
+
+Review Text:
+------------
+READ functionalities
+
+Are rows being listed for all entities?
+Yes
+
+Are rows being listed for all relationships, as described in the Specs?
+Yes
+
+Is the Search OR filter functionality present and working?
+Yes
+
+Is there a better way that data could be displayed on these pages? OR Could the style of the webpage be improved?
+As others have mentioned, I had issues with the page not working. Refresh does not fix it and I must use the link again.
+
+Anything else that you think is important for READ functionalities?
+No
+
+DELETE functionalities
+
+I was able to delete products, but I could not find where to delete an order. Since your delete implementation is narrow I would just double check you are meeting the requirements.
+
+
+
+
+========
+Reviews for Project Step 5 Draft by William Darnell
+========
+
+URL of the discussion post where you submitted the review 
+----------------------------------------------------------
+https://oregonstate.instructure.com/groups/316002/discussion_topics/8372911
+
+Review Text:
+------------
+READ functionalities
+
+Are rows being listed for all entities?
+Yes
+
+Are rows being listed for all relationships, as described in the Specs?
+Yes
+
+Is the Search OR filter functionality present and working?
+It is present but does not seem to be working
+
+Is there a better way that data could be displayed on these pages? OR Could the style of the webpage be improved?
+No, looks good
+
+Anything else that you think is important for READ functionalities?
+No
+
+DELETE functionalities
+
+Delete is working for all entities I tested.
+
+
+
+========
+Reviews for Project Step 5 Draft by Hillary Dreikorn
+========
+
+URL of the discussion post where you submitted the review 
+----------------------------------------------------------
+https://oregonstate.instructure.com/groups/316002/discussion_topics/8372911
+
+Review Text:
+------------
+READ functionalities
+
+Are rows being listed for all entities?
+There is not a list of restaurants
+
+Are rows being listed for all relationships, as described in the Specs?
+Yes
+
+Is the Search OR filter functionality present and working?
+No (as mentioned)
+
+Is there a better way that data could be displayed on these pages? OR Could the style of the webpage be improved?
+The shadow on text of the homepage made it difficult for me to read. Maybe add a page to add a restaurant without going through a current list.
+
+Anything else that you think is important for READ functionalities?
+Is there supposed to be a page which displays recommended restaurants? I am a bit confused what the recommend button will do when it works.
+
+DELETE functionalities
+
+Not working (as mentioned)
+
+
+
+========
+Reviews for Project Step 5 Draft by Lee Rice
+========
+
+URL of the discussion post where you submitted the review 
+----------------------------------------------------------
+https://oregonstate.instructure.com/groups/316002/discussion_topics/8372911
+
+Review Text:
+------------
+READ functionalities
+
+Are rows being listed for all entities?
+Yes
+
+Are rows being listed for all relationships, as described in the Specs?
+Yes
+
+Is the Search OR filter functionality present and working?
+Present but not working (as mentioned)
+
+Is there a better way that data could be displayed on these pages? OR Could the style of the webpage be improved?
+ All the relationship tables should display names instead of id using joins, but this looks like something you may be working on still.
+
+Anything else that you think is important for READ functionalities?
+ 
+
+DELETE functionalities
+
+Delete works only for teams and countries.
+
