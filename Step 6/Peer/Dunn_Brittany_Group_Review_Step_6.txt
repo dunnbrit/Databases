@@ -1,0 +1,134 @@
+Name:    Brittany Dunn
+For: Project Step 6 Group Review
+Version: Draft
+
+========
+Reviews for Project Step 6 Draft by Russell Moon
+========
+
+URL of the discussion post where you submitted the review 
+----------------------------------------------------------
+https://oregonstate.instructure.com/groups/316002/discussion_topics/8379107
+
+Review Text:
+------------
+ 1.   Is the UPDATE functionality properly implemented for at least one entity?
+Yes 
+2.	What is the effect of this UPDATE on the relationships that the entity is participating in ?
+Updating restaurant does not affect restaurant review or restaurant cuisine
+3.	What is the effect of CREATE and DELETE operations on the other entities that are participating in the relationship with this entity?
+Deleting restaurant removes from restaurant review and restaurant cuisine. Deleting user removes user visit. Deleting item review does not remove item. Deleting item does remove item review. Deleting cuisine removes restaurant cuisine. CREATE operations allow entity to be added to different relationships correctly. 
+4.	Anything else that you think is important for the UPDATE functionality?
+No, update functions correctly. 
+
+
+
+========
+Reviews for Project Step 6 Draft by Christopher Brown
+========
+
+URL of the discussion post where you submitted the review 
+----------------------------------------------------------
+https://oregonstate.instructure.com/groups/316002/discussion_topics/8379107
+
+Review Text:
+------------
+1.    Is the UPDATE functionality properly implemented for at least one entity?
+	Yes
+2.	What is the effect of this UPDATE on the relationships that the entity is participating in ?
+	Buying gear and weapons adds relationship with inkling
+3.	What is the effect of CREATE and DELETE operations on the other entities that are participating in the relationship with this entity?
+Creating inkling allows it to add a relationship to gear and weapons. Creating gear allows it to add a relationship to brand and inkling. Creating weapons allows it to add a relationship to inkling. Deleting inkling removes its relationship with gear and weapons. Deleting brand removes gear. Deleting gear does not remove brand. 
+4.	Anything else that you think is important for the UPDATE functionality?
+	No, works well. 
+
+
+========
+Reviews for Project Step 6 Draft by Eddie Kovsky
+========
+
+URL of the discussion post where you submitted the review 
+----------------------------------------------------------
+https://oregonstate.instructure.com/groups/316002/discussion_topics/8379107
+
+Review Text:
+------------
+1.    Is the UPDATE functionality properly implemented for at least one entity?
+	Yes. Updating is possible on order and product price. 
+2.	What is the effect of this UPDATE on the relationships that the entity is participating in ?
+	Updating orders adds or removes relationship with product
+3.	What is the effect of CREATE and DELETE operations on the other entities that are participating in the relationship with this entity?
+Deleting a product is not allowed if it is in a relationship with an order. A product can be deleted from its relationship with an order. Creating an address and payment allows them to be added to a relationship with customer. Creating a product, customer, address, and payment allows them to be added to a relationship with order.
+4.	Anything else that you think is important for the UPDATE functionality?
+	No, everything looks good. 
+
+
+
+========
+Reviews for Project Step 6 Draft by William Darnell
+========
+
+URL of the discussion post where you submitted the review 
+----------------------------------------------------------
+https://oregonstate.instructure.com/groups/316002/discussion_topics/8379107
+
+Review Text:
+------------
+1.    Is the UPDATE functionality properly implemented for at least one entity?
+	Yes. 
+2.	What is the effect of this UPDATE on the relationships that the entity is participating in ?
+Updating stock, twitter, or game does not affect company. Updating genre does not affect game. Updating genre effects game. 
+3.	What is the effect of CREATE and DELETE operations on the other entities that are participating in the relationship with this entity?
+Creating a company allows it to be added to a relationship with stock, twitter, and game. Creating a game allows it to be added to a relationship with genre. Deleting a stock, twitter, and game does not remove a company. Deleting a game does not remove a genre. Deleting a genre does appear to remove a game but does not actually remove it, see below. Deleting a company removes stock, twitter, and games. 
+4.	Anything else that you think is important for the UPDATE functionality?
+When a genre is deleted, it appears to delete all games with that genre because they no longer appear in Current Games on the game page. I do not think this is working correctly though because the game will still appear on the homepage and when you try to create a game with the same name and company but different genre as the “deleted” one you get this error message: 
+
+{"code":"ER_DUP_ENTRY","errno":1062,"sqlMessage":"Duplicate entry 'test' for 
+key 'game_name'","sqlState":"23000","index":0,"sql":"INSERT INTO game (game_name, release_date, rating, companyID) VALUES ('test', '', '', '6');"}
+I am guessing you are setting genre to null for a game when that genre is deleted and your query for current games is using inner joins instead of a left join to make sure it picks up on games with null genres.
+
+
+========
+Reviews for Project Step 6 Draft by Hillary Dreikorn
+========
+
+URL of the discussion post where you submitted the review 
+----------------------------------------------------------
+https://oregonstate.instructure.com/groups/316002/discussion_topics/8379107
+
+Review Text:
+------------
+1.     Is the UPDATE functionality properly implemented for at least one entity?
+	Yes. 
+2.	What is the effect of this UPDATE on the relationships that the entity is participating in ?
+Updating username does not affect lists. 
+3.	What is the effect of CREATE and DELETE operations on the other entities that are participating in the relationship with this entity?
+Creating a user allows it to be added to a relationship with lists. Creating a restaurant allows it to be added to a relationship with a list and recommendation lists.  Deleting a restaurant from a list removes the relationship with list and does not delete the restaurant or the list. Deleting list removes relationship with user and does not delete the restaurant. 
+4.	Anything else that you think is important for the UPDATE functionality?
+I am not sure if this is your intention, but if a recommendation list has a restaurant in it, it will not delete. Also on the add new list page, recommendation is misspelled in “Make it a Recomendation List!” 
+
+
+========
+Reviews for Project Step 6 Draft by Andrew Huson
+========
+
+URL of the discussion post where you submitted the review 
+----------------------------------------------------------
+https://oregonstate.instructure.com/groups/316002/discussion_topics/8379107
+
+Review Text:
+------------
+Is the UPDATE functionality properly implemented for at least one entity?
+Yes.
+
+What is the effect of this UPDATE on the relationships that the entity is participating in ?
+Updating person does not affect applications. Updating state does affect payments.  
+
+What is the effect of CREATE and DELETE operations on the other entities that are participating in the relationship with this entity?
+Creating a person or state allows it to be added to a relationship with applications. Deleting an application removes relationship with person and does not delete a person. Deleting state removes relationship with person and deletes the application.
+
+Anything else that you think is important for the UPDATE functionality?
+     Everything seems to be working well.
+
+
+
