@@ -1,0 +1,111 @@
+Name:    Brittany Dunn
+For: Project Step 4 Group Review
+Version: Draft
+
+========
+Reviews for Project Step 4 Draft by Eddie Kovsky
+========
+
+URL of the discussion post where you submitted the review 
+----------------------------------------------------------
+https://oregonstate.instructure.com/groups/316002/discussion_topics/8368889
+
+Review Text:
+------------
+Tables	Insert Form Works?	Notes	
+customer	yes		
+product	yes		
+cust_order	yes		
+cust_address	yes		
+cust_payment	yes		
+cust_order_product_id	yes		
+			
+Relationships (Tables)	Relationship Type	Insert affects table correctly?	Notes
+customer - cust_address	1 to 1	mostly yes	On the customer page each customer appears multiple times
+customer-cust_payment	1 to 1	yes	
+order-customer	n to 1	yes	
+order-cust_payment	1 to 1	yes	
+order-cust_address	n to 1	yes	
+order - product (cust_order_product)	n to m	yes	
+
+
+=======
+Reviews for Project Step 4 Draft by Russell Moon
+=======
+
+URL of the discussion post where you submitted the review 
+----------------------------------------------------------
+https://oregonstate.instructure.com/groups/316002/discussion_topics/8368889
+
+Review Text:
+------------
+Tables	Insert Form Works?	Notes	
+User	yes		
+Visit	yes		
+User_Visit	yes		
+Restaurant	yes		
+RestaurantReview	yes		
+Cuisine	yes		
+Restaurant_Cuisine	yes		
+MenuItem	yes		
+MenuItemReview	yes		
+			
+			
+Relationships (Tables)	Relationship Type	Insert affects table correctly?	Notes
+MenuItem-restaurant(menuItem)	n to 1	yes	
+restaurant-review(RestaurnatReview)	1 to n	yes	
+menuItem-Review(MenuItemReview)	1 to n	yes	
+user-item Review(menuItemReview)	1 to n	yes	
+user-restaurant Review(restaurantReview)	1 to n	yes	
+user-visit(user_visit)	n to m	yes	
+restaurants-cuisines(restaurant_cuisine)	n to m	yes
+
+========
+Reviews for Project Step 4 Draft by Christopher Brown
+========
+
+URL of the discussion post where you submitted the review 
+----------------------------------------------------------
+https://oregonstate.instructure.com/groups/316002/discussion_topics/8368889
+
+Review Text:
+------------
+Tables	Insert Form Works?	Notes									
+Gear Inventory(Gear/Inkling)	*	see below									
+Gear	yes										
+Brand	yes										
+Inkling	yes										
+Weapon Inventory(inkling/weapon)	*	see below									
+weapon	yes										
+											
+											
+Relationships (Tables)	Relationship Type	Insert affects table correctly?	Notes								
+inkling-weapon (weapon inventory)	n to m	*	see below								
+inkling-gear (gear inventory)	n to m	*	see below								
+gear - brand (gear)	n to 1	yes									
+											
+* Because the select on dropdowns does not work to populate tables I cannot tell if any of these are possible or if the equip button is functioning.		
+
+========
+Reviews for Project Step 3 Draft by Andrew Huson
+========
+
+URL of the discussion post where you submitted the review 
+----------------------------------------------------------
+https://oregonstate.instructure.com/groups/316002/discussion_topics/8368889
+
+Review Text:
+------------
+Tables	Insert Form Works?	Notes	
+Person	yes		
+App	yes		
+Payments	yes		
+AppMembers	yes		
+State	yes		
+			
+			
+Relationships (Tables)	Relationship Type	Insert affects table correctly?	Notes
+people-app (appMembers)	n to m	yes	
+person-state(person)	n to 1	yes	
+app-state(app)	n to 1	yes	
+payment-app(payment)	n to 1	yes

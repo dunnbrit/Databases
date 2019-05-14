@@ -1,0 +1,20 @@
+Tables	Insert Form Works?	Notes	
+User	yes		
+Visit	yes		
+User_Visit	yes		
+Restaurant	yes		
+RestaurantReview	yes		
+Cuisine	yes		
+Restaurant_Cuisine	yes		
+MenuItem	yes		
+MenuItemReview	yes		
+			
+			
+Relationships (Tables)	Relationship Type	Insert affects table correctly?	Notes
+MenuItem-restaurant(menuItem)	n to 1	yes	
+restaurant-review(RestaurnatReview)	1 to n	yes	
+menuItem-Review(MenuItemReview)	1 to n	yes	
+user-item Review(menuItemReview)	1 to n	yes	
+user-restaurant Review(restaurantReview)	1 to n	yes	
+user-visit(user_visit)	n to m	yes	
+restaurants-cuisines(restaurant_cuisine)	n to m	yes	

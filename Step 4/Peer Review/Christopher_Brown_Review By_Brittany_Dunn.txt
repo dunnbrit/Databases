@@ -1,0 +1,15 @@
+Tables	Insert Form Works?	Notes									
+Gear Inventory(Gear/Inkling)	*	see below									
+Gear	yes										
+Brand	yes										
+Inkling	yes										
+Weapon Inventory(inkling/weapon)	*	see below									
+weapon	yes										
+											
+											
+Relationships (Tables)	Relationship Type	Insert affects table correctly?	Notes								
+inkling-weapon (weapon inventory)	n to m	*	see below								
+inkling-gear (gear inventory)	n to m	*	see below								
+gear - brand (gear)	n to 1	yes									
+											
+* Because the select on dropdowns does not work to populate tables I cannot tell if any of these are possible or if the equip button is functioning.											

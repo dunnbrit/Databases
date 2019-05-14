@@ -1,0 +1,13 @@
+Tables	Insert Form Works?	Notes	
+Person	yes		
+App	yes		
+Payments	yes		
+AppMembers	yes		
+State	yes		
+			
+			
+Relationships (Tables)	Relationship Type	Insert affects table correctly?	Notes
+people-app (appMembers)	n to m	yes	
+person-state(person)	n to 1	yes	
+app-state(app)	n to 1	yes	
+payment-app(payment)	n to 1	yes	

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Remove Your Review</title>
+</head>
+<body>
+	<h1>Remove Your Review</h1>
+	<form>
+		<fieldset>
+    		<legend>Select a Restaurant:</legend>
+    		  <select name="all_restaurants">
+    			<option value="$restaurant_name">$restaurant_name</option>
+    		</select><br>
+    		<input type="submit" name="select_restaurant">
+  		</fieldset>
+	</form>
+    <br>
+    <br>
+    <h2>Selected Restaurant:</h2>
+    $restaurant_name <br>
+    <form>
+        <fieldset>
+            <legend>Remove Your Review:</legend>
+            Enter Your User ID:<input type="number" name="userID">
+            <input type="submit" name="remove_review">
+        </fieldset>
+    </form>
+</body>
+</html>

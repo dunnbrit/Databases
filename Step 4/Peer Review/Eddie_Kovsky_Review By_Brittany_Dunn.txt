@@ -1,0 +1,16 @@
+			
+Tables	Insert Form Works?	Notes	
+customer	yes		
+product	yes		
+cust_order	yes		
+cust_address	yes		
+cust_payment	yes		
+cust_order_product_id	yes		
+			
+Relationships (Tables)	Relationship Type	Insert affects table correctly?	Notes
+customer - cust_address	1 to 1	mostly yes	On the customer page each customer appears multiple times
+customer-cust_payment	1 to 1	yes	
+order-customer	n to 1	yes	
+order-cust_payment	1 to 1	yes	
+order-cust_address	n to 1	yes	
+order - product (cust_order_product)	n to m	yes	
