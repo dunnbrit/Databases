@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Find Restaurant</title>
+</head>
+<body>
+	<h1>Find Restaurant</h1>
+	<form>
+		<fieldset>
+    		<legend>By Name:</legend>
+    		  <select name="all_restaurants">
+    			<option value="$restaurant_name">$restaurant_name</option>
+    		</select><br>
+    		<input type="submit" name="select_restaurant">
+  		</fieldset>
+	</form>
+    <br>
+    <form>
+        <fieldset>
+            <legend>By Zip Code:</legend>
+              <input type="number" name="zip">
+            <input type="submit" name="select_restaurant">
+        </fieldset>
+    </form>
+    <br>
+    <form>
+        <fieldset>
+            <legend>By City:</legend>
+              City:<input type="text" name="city">
+              State:<input type="text" name="state">
+            <input type="submit" name="select_restaurant">
+        </fieldset>
+    </form>   
+    <br>
+    <form>
+        <fieldset>
+            <legend>By Rating:</legend>
+              Minmum Rating:<input type="number" name="rating">
+            <input type="submit" name="select_restaurant">
+        </fieldset>
+    </form>
+    <br>
+    <form>
+        <fieldset>
+            <legend>By Cuisine:</legend>
+              <select name="all_cuisines">
+                <option value="$cuisine_types">$cuisine_type</option>
+            </select><br>
+            <input type="submit" name="select_restaurant">
+        </fieldset>
+    </form>
+
+
+    <h2>Matching Restaurants</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Location</th>
+                <th>Cuisine</th>
+                <th>Rating</th>
+            </tr>  
+        </thead>
+        <tbody>
+            <tr>
+                <td>$restaurant_name</td>
+                <td>$restaurant_location</td>
+                <td>$restaurnat_cuisine</td>
+                <td>$restaurant_rating</td> 
+                <td><button>Select</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <h2>Selected Restaurant:</h2>
+    $restaurant_name <br>
+    $restaurant_location    $restaurnat_cuisine     $restaurant_rating 
+    <button>See Reviews</button>
+    <br>
+    <h3>Reviews</h3>
+    <ul>
+        <li>Likes: $number_of_likes</li>
+        <li>Dislikes: $number_of_dislikes</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Review</title>
+</head>
+<body>
+	<h1>Add Review</h1>
+	<form>
+		<fieldset>
+    		<legend>Select a Restaurant:</legend>
+    		  <select name="all_restaurants">
+    			<option value="$restaurant_name">$restaurant_name</option>
+    		</select><br>
+            Restaurant Not Listed? <button>Add it
+                <a href="add_restaurant.html"></a>
+                </button><br>
+    		<input type="submit" name="select_restaurant">
+  		</fieldset>
+	</form>
+    <br>
+    <br>
+    <h2>Selected Restaurant:</h2>
+    $restaurant_name <br>
+    <form>
+        <fieldset>
+            <legend>Add Your Review:</legend>
+            Enter Your User ID:<input type="number" name="userID">
+            <p>
+                Like<input type="radio" name="like" value="1">
+                Dislike<input type="radio" name="dislke" value="0">
+            </p>
+            <input type="submit" name="add_review">
+        </fieldset>
+    </form>
+</body>
+</html>
